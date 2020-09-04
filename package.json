@@ -1,36 +1,29 @@
 {
-    "name": "the-tech-blog",
-    "version": "1.0.0",
-    "description": "tech-blog",
-    "main": "server.js",
-    "scripts": {
-        "test": "jest",
-        "start": "node server.js",
-        "watch": "nodemon server.js",
-        "seed": "node seeds/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:jakekelly44/tech-blog.git"
-    },
-    "author": "Jake Kelly",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/jakekelly44/tech-blog/issues"
-    },
-    "homepage": "https://github.com/jakekelly44/tech-blog#readme",
-    "dependencies": {
-        "bcrypt": "^5.0.0",
-        "connect-session-sequelize": "^6.1.1",
-        "dotenv": "^8.2.0",
-        "express": "^4.17.1",
-        "express-handlebars": "^4.0.4",
-        "express-session": "^1.17.1",
-        "mysql2": "^2.1.0",
-        "sequelize": "^5.21.12"
-    },
-    "devDependencies": {
-        "jest": "^26.4.2",
-        "nodemon": "^2.0.4"
-    }
+  "name": "group-3-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorshea15/group-3-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorshea15/group-3-project/issues"
+  },
+  "homepage": "https://github.com/connorshea15/group-3-project#readme",
+  "dependencies": {
+    "connect-session-sequelize": "^7.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  }
 }
