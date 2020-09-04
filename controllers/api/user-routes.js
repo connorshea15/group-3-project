@@ -59,6 +59,8 @@ router.post('/', (req, res) => {
 
     User.create({
         username: req.body.username,
+        city: req.body.city,
+        bio: req.body.bio,
         password: req.body.password
     })
 

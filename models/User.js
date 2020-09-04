@@ -30,6 +30,14 @@ User.init(
         allowNull:false,
         unique: true
     },
+    bio: {
+        type: DataTypes.TEXT,
+        allowNull: false
+    },
+    city: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     // define a password column 
     password: {
         type: DataTypes.STRING,

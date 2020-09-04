@@ -9,6 +9,7 @@ router.get('/', (req, res) => {
             attributes: ['id',
                 'title',
                 'content',
+                'city_name',
                 'created_at'
             ],
             order: [
@@ -43,6 +44,7 @@ router.get('/:id', (req, res) => {
             attributes: ['id',
                 'content',
                 'title',
+                'city_name',
                 'created_at'
             ],
             include: [{
@@ -76,6 +78,7 @@ router.post('/', withAuth, (req, res) => {
     Post.create({
             title: req.body.title,
             content: req.body.content,
+            city_name: req.body.city_name,
             user_id: req.session.user_id
         })
         .then(dbPostData => res.json(dbPostData))
