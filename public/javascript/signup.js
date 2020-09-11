@@ -6,12 +6,14 @@ async function signupFormHandler(event) {
     const bio = document.querySelector('#bio-signup').value.trim();
     const city = document.querySelector('#city-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
+    const image = document.querySelector('#image-signup').value.trim();
 
     if (username && password) {
         const response = await fetch('/api/users', {
             method: 'POST',
             body: JSON.stringify({
                 username,
+                image,
                 bio,
                 city,
                 password

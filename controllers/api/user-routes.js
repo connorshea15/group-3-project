@@ -59,6 +59,7 @@ router.post('/', (req, res) => {
 
     User.create({
         username: req.body.username,
+        image: req.body.image,
         city: req.body.city,
         bio: req.body.bio,
         password: req.body.password
@@ -69,7 +70,7 @@ router.post('/', (req, res) => {
                 req.session.user_id = dbUserData.id;
                 req.session.username = dbUserData.username;
                 req.session.loggedIn = true;
-
+                console.log(dbUserData.image);
                 res.json(dbUserData);
             });
         })

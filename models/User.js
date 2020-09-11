@@ -30,6 +30,9 @@ User.init(
         allowNull:false,
         unique: true
     },
+    image: {
+        type: DataTypes.STRING
+    },
     bio: {
         type: DataTypes.TEXT,
         allowNull: true

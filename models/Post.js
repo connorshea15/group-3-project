@@ -24,7 +24,11 @@ Post.init(
       },
       city_name: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
+      },
+      city_image: {
+        type: DataTypes.STRING,
+        allowNull: true
       },
       user_id: {
         type: DataTypes.INTEGER,
