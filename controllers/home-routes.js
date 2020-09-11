@@ -6,6 +6,8 @@ router.get('/', (req, res) => {
             attributes: [
                 'id',
                 'title',
+                'city_image',
+                'city_name',
                 'content',
                 'created_at'
             ],
