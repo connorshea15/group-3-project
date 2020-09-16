@@ -1,20 +1,21 @@
-<h1>
-  Hello {{user.username}}!
-</h1>
-
-<img src="{{user.image}}" style="width:150px;height:150px;"></img>
-
-<h4>Bio</h4>
-<h5>{{user.bio}}</h5>
-
-<h4>Home Base:</h4>
-<h5>{{user.city}}</h5>
-
-
+<div class="card">
+    <div class="card-header">
+      <h1 class="text-align-center">
+        Hello {{user.username}}!
+      </h1>
+       <div class="flex-row justify-space-around align-center p-2">
+            <img src="{{user.image}}" style="max-width:15%;"></img>
+            <div>
+                <p>City: {{user.city}}</p>
+                <p>Bio: {{user.bio}}<p></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 {{#if user.posts.length}}
 <section>
-  <h2>Your Posts</h2>
+  <h2 class="profile-data">Your Posts</h2>
     {{#each user.posts as |post|}}
       {{> dashboard-postinfo post}}
     {{/each}}

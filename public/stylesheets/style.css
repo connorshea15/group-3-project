@@ -1,9 +1,9 @@
                    :root {
-                      --primary: #ccdad1;
+                      --primary: #a1c0b6;
                       --secondary: #dce9d5;
-                      --tertiary: #788585;
-                      --light-dark: #a1a0a1;
-                      --dark: #201110;
+                      --tertiary: #5ca5a5;
+                      --light-dark: #1c555f;
+                      --dark: #29855e;
                       --border-radius: .3rem;
                   }
                   
@@ -28,7 +28,7 @@
                   h6 {
                       font-weight: 700;
                       margin: 0;
-                      color: var(--dark);
+                      color: var(--tertiary);
                       line-height: 1.25;
                   }
                   
@@ -106,7 +106,8 @@
                   
                   .hero {
                       padding: 3% 4%;
-                      background-color: var(--dark);
+                      background-image: linear-gradient(var(--dark), var(--light-dark));
+                      /*background-color: var(--dark); */
                       color: var(--primary);
                   }
                   
@@ -116,14 +117,29 @@
                   
                   .app-title {
                       font-size: 3rem;
-                      background-color: var(--primary);
-                      color: var(--dark);
+                      /*background-color: var(--primary); */
+                      color: var(--tertiary);
                       padding: 0 10px;
                       display: inline-block;
-                      border-radius: var(--border-radius);
-                      box-shadow: 6px 5px var(--light-dark);
+                      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                      /*border-radius: var(--border-radius);
+                      box-shadow: 6px 5px var(--light-dark); */
                   }
                   
+                  .jumbotron {
+                      background-image: url(https://mk0travelawayrru2xew.kinstacdn.com/wp-content/uploads/2013/10/brooklyn-bridge-manhattan.jpg);
+                      background-size: cover;
+                      background-position: center;
+                      background-attachment: fixed;
+                      background-position: 80%;
+                      display: flex;
+                      justify-content: center;
+                      flex-wrap: wrap;
+                      align-items: flex-start;
+                      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+                  }
+
                   .list-group {
                       padding: 0;
                       list-style: none;
@@ -166,9 +182,14 @@
                   
                   .card-header {
                       color: var(--primary);
+                      background-image: linear-gradient(var(--light-dark), var(--dark));
                       background-color: var(--dark);
                       padding: 1%;
                       border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+                  }
+
+                  .text-align-center {
+                      text-align: center;
                   }
                   
                   .card-body {
@@ -183,7 +204,8 @@
                   }
                   
                   .link {
-                      color: var(--light-dark);
+                      color: var(--tertiary);
+                      text-decoration: none;
                   }
                   
                   .login-link {
@@ -202,6 +224,10 @@
                       justify-content: center;
                       padding: 1%;
                       font-size: 110%;
+                  }
+
+                  .p-2 {
+                      padding: 2%;
                   }
                   
                   .form-label,
@@ -222,6 +248,10 @@
                       font-size: 1.2rem;
                       border: 2px solid var(--light-dark);
                       border-radius: var(--border-radius);
+                  }
+
+                  .profile-data {
+                    color: var(--light-dark);
                   }
                   
                   .min-100-vh {

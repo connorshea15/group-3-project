@@ -56,6 +56,8 @@ router.get('/post/:id', (req, res) => {
                 'id',
                 'content',
                 'title',
+                'city_name',
+                'city_image',
                 'created_at'
             ],
             include: [{
