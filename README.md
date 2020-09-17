@@ -68,6 +68,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 Live Deployed Application: [View Application](https://(replaceMe).herokuapp.com/ "Live Deploy")  
 
 ## Contributors
-Jake Kelly     
+Jake Kelly | [GitHub](https://github.com/jakekelly44 "Jakekelly44 Github")  | [Portfolio](https://jakekelly.co "Jake Kelly Portfolio")      
 Niku Khatami     
 Connor Shea     
