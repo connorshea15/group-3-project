@@ -65,7 +65,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 ![Screenshot](doc/proof.png?raw=true "Proof of Application")  
 
 ### Heroku Live Application
-Live Deployed Application: [View Application](https://(replaceMe).herokuapp.com/ "Live Deploy")  
+Live Deployed Application: [View Application](https://here-or-there-project.herokuapp.com/ "Live Deploy")  
 
 ## Contributors
 Jake Kelly | [GitHub](https://github.com/jakekelly44 "Jakekelly44 Github")  | [Portfolio](https://jakekelly.co "Jake Kelly Portfolio")      
