@@ -1,6 +1,6 @@
 <h1 align="center"> Here or There</h1>
 
-<h3 align="center"> A University of Arizona Coding Bootcamp Project 2 Group 3 Production</h2>
+<h3 align="center"> A University of Arizona Coding Bootcamp Project 2 Group 3 Application</h2>
 
 
 ## Description
@@ -17,9 +17,9 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ## Table of Contents 
 
 * [Usage](#usage)
+* [Architecture](#architecture)
 * [Technologies](#technologies)
 * [License](#license)
-* [Badges](#badges)
 * [Documentation](#documentation)
 * [Contributors](#contributors)
 
@@ -28,6 +28,8 @@ Clone the repo, navigate to the root folder, start the server:
 ```
 npm start server
 ```
+## Architecture
+![Screenshot](doc/MVC.png?raw=true "Application Architecture")  
 
 ## Technologies
 <p align="center">
